@@ -6,7 +6,7 @@ public class SimpleBot {
     final static Scanner scanner = new Scanner(System.in); // Do not change this line
 
     public static void main(String[] args) {
-        greet("WALL-E", "2021"); // change it as you need
+        greet("WALL-E", "2021"); 
         remindName();
         guessAge();
         count();
@@ -45,7 +45,7 @@ public class SimpleBot {
 
     static void test() {
         System.out.println("Let's test your programming knowledge.");
-        // write your code here
+        
         int answer;
         System.out.println("Why do we use methods?");
         do{
@@ -63,6 +63,6 @@ public class SimpleBot {
     }
 
     static void end() {
-        System.out.println("Congratulations, have a nice day!"); // Do not change this text
+        System.out.println("Congratulations, have a nice day!"); 
     }
 }
